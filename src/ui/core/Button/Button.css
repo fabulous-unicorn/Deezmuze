@@ -1,0 +1,19 @@
+.button {
+    color: var(--color-control-primary-typo);
+    border-radius: 6px;
+    padding: 8px 40px;
+    font-style: normal;
+    font-size: var(--typo-size-l);
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-button {
+    background-color: var(--color-control-primary-bg);
+    border: none;
+}
+
+.borders-button {
+    background: none;
+    border: 1px solid var(--color-control-primary-bg);
+    /* box-sizing: border-box; */
+}

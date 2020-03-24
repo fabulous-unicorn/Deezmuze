@@ -1,3 +1,39 @@
+@font-face{
+
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf');
+    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Medium.ttf');
+    src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Regular.ttf');
+    src: url('./assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Light.ttf');
+    src: url('./assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +46,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+	/* при изменении сделать копию переменных в сторибук */
+	/* theme_space_default */
+	--space-xs: 4px;
+	--space-s: 8px;
+	--space-m: 16px;
+	--space-l: 20px;
+	--space-xl: 24px;
+	--space-xxl: 40px;
+	--space-xxxl: 48px;
+	--space-xxxxl: 60px;
+	--space-xxxxxl: 80px;
+	--space-xxxxxxl: 96px;
+
+  /*color*/
+	--color-bg-default: #0D0D0D;
+	--color-bg-secondary: #171717;
+	--color-bg-devider: #8D8D8D;
+
+	--color-typo-primary: #FFFFFF;
+	--color-typo-secondary: #8D8D8D;
+	--color-typo-link-white: #FFFFFF;
+	--color-typo-link-white-hover: #2FB180;
+
+	--color-control-primary-bg: #2FB180;
+	--color-control-primary-bg-hover: #048152;
+	--color-control-primary-typo: #FFFFFF;
+	--color-control-primary-typo-hover: #FFFFFF;
+	--color-control-secondary-bg: #1F1F1F;
+	--color-control-secondary-typo: #8D8D8D;
+
+	--typo-size-xxl: 48px;
+	--typo-size-xl: 36px;
+	--typo-size-l: 24px;
+	--typo-size-m: 18px;
+	--typo-size-s: 14px;
+	--typo-size-xs: 12px;
 }
