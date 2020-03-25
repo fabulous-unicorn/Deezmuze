@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button>QWERTYUIOP</Button>
+        <Button view='primary'>QWERTYUIOP</Button>
       </header>
     </div>
   );

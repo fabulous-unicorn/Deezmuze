@@ -1,6 +1,13 @@
 import React from 'react'
-import './Button.css';
+import styles from './Button.module.css'
+import cn from 'classnames'
 
 export function Button(props) {
-    return (<button className="button borders-button">{props.children}</button>)
+  
+	const classNames = {
+		[styles.button]: true,
+		[styles[props.view]]: props.view
+	}
+
+	return (<button className={cn(classNames)}>{props.children}</button>)
 }
