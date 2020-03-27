@@ -1,0 +1,12 @@
+export { default as IconArrowLeft } from './ArrowLeft';
+export { default as IconArrowRight } from './ArrowRight';
+export { default as IconArrowUp } from './ArrowUp';
+export { default as IconFastRewindLeft } from './FastRewindLeft';
+export { default as IconFastRewindRight } from './FastRewindRight';
+export { default as IconLogo } from './Logo';
+export { default as IconMix } from './Mix';
+export { default as IconPause } from './Pause';
+export { default as IconPlay } from './Play';
+export { default as IconPlus } from './Plus';
+export { default as IconSearch } from './Search';
+export { default as IconVolume } from './Volume';
